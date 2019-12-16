@@ -1,5 +1,6 @@
 require 'octokit'
 require 'optparse'
+require "git/pr/release/util"
 
 module Git
   module Pr
